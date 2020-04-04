@@ -9,7 +9,7 @@ ps.set_memory(int(5e8))
 np_memory = 2
 
 # Initialization Molecular Geometry
-ps.set_options({'basis': 'cc-pvdz'})
+ps.set_options({'basis': 'sto-3g'})
 mol = ps.geometry("""
 O  0.000000000000 -0.143225816552 0.000000000000
 H  1.638036840407 1.136548822547 -0.000000000000
